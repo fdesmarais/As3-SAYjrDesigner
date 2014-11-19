@@ -1,0 +1,13 @@
+import com.Snowflake
+
+function makeItSnow()
+{
+	for (var i:int = 0; i < 80; i++)
+	{
+		var newSnowFlake:Snowflake = new Snowflake();
+		mc_snow.addChild(newSnowFlake);
+		
+		newSnowFlake.SetInitialProperties();
+	}
+}
+makeItSnow();
